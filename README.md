@@ -9,7 +9,7 @@ Find below a few examples of the usage of this class:
 public static void main(String[] args) {
 
 	String text = "This is some dummy text. Source: a nice book. Here is more text.\n"
-				+ "This class provide a way to parse text in order to extract inline source references (Source : SourcesExtractor Javadoc)";
+			+ "This class provide a way to parse text in order to extract inline source references (Source : SourcesExtractor Javadoc)";
 
 	SourcesExtractor src = new SourcesExtractor();
 
