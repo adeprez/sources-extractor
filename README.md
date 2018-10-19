@@ -38,3 +38,22 @@ public static void main(String[] args) {
 
 }
 ```
+
+Output text would be:
+
+```
+This is some dummy text. Source: a nice book. Here is more text.
+This class provide a way to parse text in order to extract inline source references (Source : SourcesExtractor Javadoc)
+
+This is some dummy text<sup>1</sup>. Here is more text.
+This class provide a way to parse text in order to extract inline source references<sup>2</sup>
+
+<sup>1</sup>a nice book<br/><sup>2</sup>SourcesExtractor Javadoc
+Here is some other text...source:just an inline source
+
+Here is some other text (3)
+
+1. a nice book
+2. SourcesExtractor Javadoc
+3. just an inline source
+```
